@@ -1,65 +1,106 @@
-header{
-    background: #2C3E50;
-    color: #fff;
-    
+*{
+    box-sizing: border-box;
+}
+.Header{
+   min-height: 40px;
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
 }
 body{
     margin: 0;
-    font-family: Arial;
-    color:#FFF
-
+    padding: 0;
+    background-color: khaki;
 }
-ul{
-    width: 70%;
-    list-style: square;
-    display:inline-block;
-    text-align:right;
-    padding:0px;
-    
-}
-li{
-    display: inline-block;
-    color:#fff;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-nav{
-    font-weight:bold;
-    margin-left:60px;
-    margin-right:60px;
-}
-span{
-    font-size:20px;
-    display: inline-block;
-    width: 29% ; 
+.menu{
+    display: flex;
+    flex-flow: row;
+    color: #FFF;
+    list-style-type: none;
+    margin: 0 auto;
+    justify-content: space-around;
+   
 }
 a{
-    color:#FFF;
     text-decoration: none;
+    color: #0499ff;
 }
-img{
-    margin-bottom: 50px;
-    margin-top: 150px;
-    border-radius: 1000px;
-    background: #FFF;
-    border-width: 0px;
-   
-    
+.name{
+    display: block;
+    margin-right: auto;
 }
-main{
+.menu li{
+    padding: 10px;
+}
+header{
+    width: 100%;
+    background-image: url('./img/background.jpg');
+    background-size: cover;
+    height: 400px;
     text-align: center;
-    background: #1abc9c;
+    padding-top: 40px;
     
+}
+.avatar{
+    border-radius: 50%;
+    border: 1px solid #000;
+    transition: all .5s;
+}
+header img:hover{
+    transform: scale(1.2) rotate(5deg);
+}
+.tag{
+    background-color: #FFF;
+    display: table;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sub-title {
+background-color: black;
+color: yellow;
+}
+.content{
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.card{
+   max-width: 500px;
+   margin: 10px;
+    padding: 20px;
+    border-bottom: 3px solid grey;
+    border-radius: 5px;
 }
 footer{
-    background: #2C3E50;
-   color: #FFF;
-   text-align: center;
-   
+    text-align: center;
+    padding: 60px;
 }
-.skills{
-    margin-bottom: 50px;
+.tag-list{
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+    color: #fff;
+    padding: 0px;
 }
-.Developer-name{
-    margin-bottom: 103px;
+.tag1{ 
+    background-color: #e0aa07;
+
+}
+.tag2{ background-color:#0399ff;}
+a:hover{
+    color: #FFF
+}
+.tag1:hover{
+    background-color:crimson;
+
+}
+.tag2:hover{
+    background-color:darkgreen;
+}
+.name:hover{
+    transform: scale(1.5);
+    color: lawngreen;
 }
