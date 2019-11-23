@@ -92,6 +92,7 @@ footer{
 .tag2{ background-color:#0399ff;}
 a:hover{
     color: #FFF
+
 }
 .tag1:hover{
     background-color:crimson;
@@ -103,4 +104,8 @@ a:hover{
 .name:hover{
     transform: scale(1.5);
     color: lawngreen;
+
+}
+.nav:hover{
+    transform: scale(1.3);
 }
