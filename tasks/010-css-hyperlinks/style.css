@@ -1,0 +1,13 @@
+a:link{
+    background-color: lawngreen;
+
+}
+a:visited{
+    background-color: grey;
+}
+a:active{
+    text-decoration: line-through;
+}
+a:hover{
+    text-decoration: underline;
+}

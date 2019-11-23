@@ -1,0 +1,8 @@
+body{
+    background-color: #ddb ;
+    background-image:  url("internet.png");
+    background-attachment: fixed ;
+    background-position: top center ;
+    background-repeat: no-repeat ;
+    background-size: contain;
+}
