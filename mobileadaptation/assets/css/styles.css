@@ -296,6 +296,26 @@ section.wrapper, article.wrapper {
       
     
     }
+   /* .up {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color:rgba(51, 191, 27, 0.1);
+      position: fixed;
+    text-align: center;
+    z-index: 1;
+    top:80%;
+    left:90%;
+
+    }
+    .grow{
+      padding-top: 15%;
+    }*/
+    .foot {
+      text-align: center;
+      width: 100%;
+      font-size: 15px;
+    }
      
   
 
