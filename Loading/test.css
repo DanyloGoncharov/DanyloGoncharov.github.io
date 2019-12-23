@@ -28,7 +28,7 @@ body{
    
  display: flex;
  flex-direction: row;
- margin-left: 25%;
+ 
  animation-name: hides;
  animation-duration:  1s;
  animation-delay:9s;
@@ -204,3 +204,28 @@ animation-name: rev4;
     z-index: 2;
 }
 */
+@media  (max-width:780px) and (min-width:410px){
+body{
+    width: 80%;
+}
+
+}
+@media (max-width:405px){
+    body{
+        width: 60%;
+      
+    }
+    .loadingscreen{
+        width: 110%;
+        height: 150%;
+    }
+    .circle{
+        width: 25px;
+        height: 25px;
+        margin: 10px;
+        
+    }
+    .circles{
+        margin-bottom: 200px;
+    }
+}
