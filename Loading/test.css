@@ -216,8 +216,8 @@ body{
       
     }
     .loadingscreen{
-        width: 110%;
-        height: 150%;
+        width: 100%;
+        height: 100%;
     }
     .circle{
         width: 25px;
@@ -226,6 +226,6 @@ body{
         
     }
     .circles{
-        margin-bottom: 200px;
+        margin-bottom: 1%;
     }
 }
